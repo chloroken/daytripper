@@ -2,6 +2,8 @@
 
 Daytripper is an open-source, third-party cartography tool made for EVE Online.
 
+Please see the [releases page](https://github.com/chloroken/daytripper/releases) for the latest download links.
+
 Quick Info:
 
 	• Free
