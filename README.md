@@ -1,56 +1,42 @@
-# Daytripper
+# DAYTRIPPER
 
-Daytripper is an offline, open-source, visual mapping tool for EVE Online designed specifically for solo players.
+Daytripper is an offline, open-source, visual mapping tool for solo EVE Online players.
 
 ![v0.1.0 Demo Footage](https://i.imgur.com/0JwoUM9.gif)
 
 Please see the [releases page](https://github.com/chloroken/daytripper/releases) for the latest download links.
 
-Quick Info:
-
-	• Open-source.
-
-	• Completely offline.
-
-	• Colorful (very important).
+# INFO
 
 Advantages:
 
-	• Easy to use. No, really. Can you copy and paste? You're a black belt at this.
+	• Completely offline & open-source. Your data is definitively your own.
 
-	• Daytripper colors site by purpose, not class. Combat-relic are NOT relic sites!
+	• Easy to use. No, really. Can you copy & paste? You're a black belt!
 
-	• Sharing map snapshots is easy, just send your friend your "map.save" file.
+	• Daytripper colors site by purpose. Everyone knows combat-relic =/= relic!
+
+	• Maps are stored in "map.save" — send this file to share maps.
 
 Disadvantages:
 
-	• Not useful for group play.
+	• Not useful for group play due to offline nature.
 
-	• Barebones, lack of features.
-
-	• Slow development cycle.
+	• Barebones, lack of features due to early stage of development.
 
 Specifications:
 
-	• Typed backend for easy saving & sharing of maps.
+	• Made with Unity using C# methods.
 
-		• Type hierarchy: MapFile -> SolarSystem -> CosmicSignature.
+	• Typed backend for serialization: MapFile.SolarSystem.CosmicSignature
 
-	• Unity GameObjects provide a visualization of backend.
-
-		• The Unity scene is self-assembling.
-
-		• SystemObjects (prefabbed) represent SolarSystem data.
-
-		• SignatureObjects (prefabbed) represent CosmicSignature data.
-
-	• Imported Unity packages:
-
-		• TextMeshPro (for GameObject text labels).
+	• Self-assembling Unity scene provides visualization of backend.
+	
+# FAQ
 
 How to demo:
 
-	• Visit the releases page for portable builds.
+	• Visit the releases page for a portable build that you can run without Unity.
 	
 How to build:
 
