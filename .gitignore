@@ -26,6 +26,9 @@
 /.vscode/
 *.vsconfig
 
+# TextMesh Pro files
+[Aa]ssets/TextMesh*Pro/
+
 # Gradle cache directory
 .gradle/
 
