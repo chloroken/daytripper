@@ -1,6 +1,6 @@
 # DAYTRIPPER
 
-Daytripper is an offline, open-source, visual mapping tool for solo EVE Online players.
+Daytripper is an offline, open-source, visual mapping tool for solo EVE players.
 
 ![v0.1.0 Demo Footage](https://i.imgur.com/0JwoUM9.gif)
 
