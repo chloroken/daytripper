@@ -36,10 +36,9 @@ Specifications:
 
 		• Disk interfacing: Save/Load/Wipe MapFile, autosave boolean toggle.
 
-	• The Unity Scene contains monobehavior GameObjects, allowing manipulation/visualization of backend data structure:
+	• The Unity Scene contains monobehavior GameObjects, allowing visualization of backend data structure:
 
-		• The Unity scene is entirely self-building. We only ever save backend data and just reload the scene if 
-		necessary.
+		• The Unity scene is self-building. We just save backend data and just reload the scene.
 
 		• SystemObjects (prefabbed) represent SolarSystem data:
 
