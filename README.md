@@ -6,19 +6,15 @@ Please see the [releases page](https://github.com/chloroken/daytripper/releases)
 
 Quick Info:
 
-	• Free
-
 	• Open Source
 
-	• Lightweight
+	• Completely offline.
 
 	• Colorful (very important)
 
 Advantages:
 
-	• Easy to use. No, really. Can you copy and paste? You're a black belt.
-
-	• Completely offline, you retain complete control of every bit and byte.
+	• Easy to use. No, really. Can you copy and paste? You're a black belt at this.
 
 	• Daytripper colors site by purpose, not class. Combat-relic are NOT relic sites!
 
@@ -61,24 +57,14 @@ Specifications:
 
 		• TextMeshPro (for GameObject text labels)
 
-Instructions:
+How to contribute:
 
-	• Right click a system name in EVE (top left) and select "copy".
+	• To compile the source code, clone this repo and open the entire folder with Unity.
+	
+	• Add features, clean up code, tweak things, or whatever you'd like, then submit a pull request.
+	
+	• I will merge any changes that help the project move forward.
 
-	• In Daytripper, paste the system in.
+How to demo:
 
-	• Copy all signatures and paste them on to the previous system.
-
-	• Connect wormholes together to build chains.
-
-Controls:
-
-	• Left click and drag to move systems & signatures.
-
-	• Ctrl+V to "paste" data into Daytripper. Pasting signatures requires hoving a system with your mouse.
-
-	• Right click to delete a signature or system (and all of it's children signatures).
-
-	• Middle click and drag to "link" wormholes together.
-
-	• Middle click a linked wormhole to unlink it.
+	• Visit the releases page for portable builds.
