@@ -56,14 +56,18 @@ Specifications:
 
 		• TextMeshPro (for GameObject text labels)
 
-How to contribute:
-
-	• To compile the source code, clone this repo and open the entire folder with Unity.
-	
-	• Add features, clean up code, tweak things, or whatever you'd like, then submit a pull request.
-	
-	• I will merge any changes that help the project move forward.
-
 How to demo:
 
 	• Visit the releases page for portable builds.
+	
+How to build:
+
+	• To compile the source code, clone this repo and open the entire folder with Unity.
+
+How to contribute:
+	
+	• Clone the repo, tinker with Unity, and submit a pull request when done.
+	
+	• Specifically, changes like refactoring & code cleaning are most helpful at this time.
+	
+	• Once the framework is further developed, feature addition will open up.
