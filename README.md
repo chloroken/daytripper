@@ -1,84 +1,51 @@
-# daytripper
+# DAYTRIPPER
 
-Daytripper is an open-source, third-party cartography tool made for EVE Online.
+Daytripper is an offline, open-source, visual mapping tool for solo EVE players.
+
+![v0.1.0 Demo Footage](https://i.imgur.com/0JwoUM9.gif)
 
 Please see the [releases page](https://github.com/chloroken/daytripper/releases) for the latest download links.
 
-Quick Info:
-
-	• Free
-
-	• Open Source
-
-	• Lightweight
-
-	• Colorful (very important)
+# INFO
 
 Advantages:
 
-	• Easy to use. No, really. Can you copy and paste? You're a black belt.
+	• Completely offline & open-source. Your data is definitively your own.
 
-	• Completely offline, you retain complete control of every bit and byte.
+	• Easy to use. No, really. Can you copy & paste? You're a black belt!
 
-	• Daytripper colors site by purpose, not class. Combat-relic are NOT relic sites!
+	• Daytripper colors site by purpose. Everyone knows combat-relic =/= relic!
 
-	• Sharing map snapshots is easy, just send your friend your "map.save" file.
+	• Maps are stored in "map.save" — send this file to share maps.
 
 Disadvantages:
 
-	• Not useful for group play.
+	• Not useful for group play due to offline nature.
 
-	• Barebones, lack of features.
-
-	• Slow development cycle.
+	• Barebones, lack of features due to early stage of development.
 
 Specifications:
 
-	• Typed, serializable data structure for easy saving & sharing of maps:
+	• Made with Unity using C# methods.
 
-		• Type hierarchy: MapFile -> SolarSystem -> CosmicSignature
+	• Typed backend for serialization: MapFile.SolarSystem.CosmicSignature
 
-		• Disk interfacing: Save/Load/Wipe MapFile, autosave boolean toggle.
+	• Self-assembling Unity scene provides visualization of backend.
+	
+# FAQ
 
-	• The Unity Scene contains monobehavior GameObjects, allowing manipulation/visualization of backend data structure:
+How to demo:
 
-		• The Unity scene is entirely self-building. We only ever save backend data and just reload the scene if 
-		necessary.
+	• Visit the releases page for a portable build that you can run without Unity.
+	
+How to build:
 
-		• SystemObjects (prefabbed) represent SolarSystem data:
+	• To compile the source code, clone this repo and open the entire folder with Unity.
 
-			• SystemObjects are self-parsing and change both color & label based on the system class.
-
-		• SignatureObjects (prefabbed) represent CosmicSignature data:
-
-			• SignatureObjects are self-parsing and change icon based on site type.
-
-			• SignatureObjects will gravitate towards their parent system.
-
-			• Wormholes can be 'linked' with another wormhole, with adjusted gravitation.
-
-	• Imported packages:
-
-		• TextMeshPro (for GameObject text labels)
-
-Instructions:
-
-	• Right click a system name in EVE (top left) and select "copy".
-
-	• In Daytripper, paste the system in.
-
-	• Copy all signatures and paste them on to the previous system.
-
-	• Connect wormholes together to build chains.
-
-Controls:
-
-	• Left click and drag to move systems & signatures.
-
-	• Ctrl+V to "paste" data into Daytripper. Pasting signatures requires hoving a system with your mouse.
-
-	• Right click to delete a signature or system (and all of it's children signatures).
-
-	• Middle click and drag to "link" wormholes together.
-
-	• Middle click a linked wormhole to unlink it.
+How to contribute:
+	
+	• Clone the repo, tinker with Unity, and submit a pull request when done.
+	
+	• Specifically, changes like refactoring & code cleaning are most helpful at this time.
+	
+	• Once the framework is further developed, feature addition will open up.
