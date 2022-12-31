@@ -36,13 +36,13 @@ Specifications:
 
 		• Disk interfacing: Save/Load/Wipe MapFile, autosave boolean toggle.
 
-	• The Unity Scene contains monobehavior GameObjects, allowing visualization of backend data structure:
+	• The Unity Scene contains Unity GameObjects, allowing visualization of backend data structure:
 
 		• The Unity scene is self-building. We just save backend data and just reload the scene.
 
 		• SystemObjects (prefabbed) represent SolarSystem data:
 
-			• SystemObjects are self-parsing and change both color & label based on the system class.
+			• SystemObjects are self-parsing and change color & label based on system class.
 
 		• SignatureObjects (prefabbed) represent CosmicSignature data:
 
