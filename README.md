@@ -1,6 +1,6 @@
-# daytripper
+# Daytripper
 
-Daytripper is an open-source mapping program for EVE Online built with Unity, designed for solo players.
+Daytripper is an offline, open-source, visual mapping tool for EVE Online designed specifically for solo players.
 
 Please see the [releases page](https://github.com/chloroken/daytripper/releases) for the latest download links.
 
