@@ -36,7 +36,7 @@ Specifications:
 
 How to demo:
 
-	• Visit the releases page for a portable build that you can run without Unity.
+	• Visit the [releases page](https://github.com/chloroken/daytripper/releases) for a portable build that you can run without Unity.
 	
 How to build:
 
