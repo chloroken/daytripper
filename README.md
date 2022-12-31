@@ -8,11 +8,11 @@ Please see the [releases page](https://github.com/chloroken/daytripper/releases)
 
 Quick Info:
 
-	• Open Source
+	• Open-source.
 
 	• Completely offline.
 
-	• Colorful (very important)
+	• Colorful (very important).
 
 Advantages:
 
@@ -32,31 +32,21 @@ Disadvantages:
 
 Specifications:
 
-	• Typed, serializable data structure for easy saving & sharing of maps:
+	• Typed backend for easy saving & sharing of maps.
 
-		• Type hierarchy: MapFile -> SolarSystem -> CosmicSignature
+		• Type hierarchy: MapFile -> SolarSystem -> CosmicSignature.
 
-		• Disk interfacing: Save/Load/Wipe MapFile, autosave boolean toggle.
+	• Unity GameObjects provide a visualization of backend.
 
-	• The Unity Scene contains Unity GameObjects, allowing visualization of backend data structure:
+		• The Unity scene is self-assembling.
 
-		• The Unity scene is self-building. We just save backend data and just reload the scene.
+		• SystemObjects (prefabbed) represent SolarSystem data.
 
-		• SystemObjects (prefabbed) represent SolarSystem data:
+		• SignatureObjects (prefabbed) represent CosmicSignature data.
 
-			• SystemObjects are self-parsing and change color & label based on system class.
+	• Imported Unity packages:
 
-		• SignatureObjects (prefabbed) represent CosmicSignature data:
-
-			• SignatureObjects are self-parsing and change icon based on site type.
-
-			• SignatureObjects will gravitate towards their parent system.
-
-			• Wormholes can be 'linked' with another wormhole, with adjusted gravitation.
-
-	• Imported packages:
-
-		• TextMeshPro (for GameObject text labels)
+		• TextMeshPro (for GameObject text labels).
 
 How to demo:
 
