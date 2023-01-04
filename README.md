@@ -23,15 +23,16 @@
 
 Advantages:
 
-	• Offline & open-source. Your data never leaves your PC.
-	• Easy to use. No, really. Can you copy & paste? You're a black belt!
-	• Daytripper colors site by purpose; a combat-relic site is more combat than relic.
-	• Maps can be backed up and even shared with other users.
+	• Offline.
+	• Open-source.
+	• Easy to use.
+	• Sites are colored by purpose; a combat-relic site is more combat than relic.
 
 Disadvantages:
 
-	• Not useful for group play due to offline nature.
-	• Barebones, lack of features due to early stage of development.
+	• Not useful for group play.
+	• Lack of features.
+	• Maps can be shared, but it's clumsy.
 
 Specifications:
 
