@@ -35,6 +35,6 @@ Disadvantages:
 
 Specifications:
 
-    • Made with C# in Unity 2021.3.16f1.
-    • Readable data structure: `MapFile.SolarSystem.CosmicSignature`.
+    • Made with C# in Unity.
+    • Data format: MapFile.SolarSystem.CosmicSignature
     • Self-assembling scene philosophy.
