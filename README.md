@@ -1,19 +1,31 @@
 # DAYTRIPPER
-
-Daytripper is an offline, open-source, visual mapping tool for solo EVE players.
+*Daytripper is an offline, open-source, visual mapping tool for solo EVE players.*
 
 ![v0.2.0 Demo Footage](https://i.imgur.com/dPkAvrv.gif)
 
-Please see the [releases page](https://github.com/chloroken/daytripper/releases) for the latest download links.
+# WE WANT YOU...
+
+...to help build Daytripper by offering suggestions, adding features, and submitting pull requests!
+
+### How to demo:
+
+1. Visit the [releases page](https://github.com/chloroken/daytripper/releases) for a portable build that you can run with no extra software.
+2. Refer to the release notes for an up-to-date instruction manual.
+3. Send feedback in the form of a GitHub issue or directly to `@chloroken`.
+	
+### How to build:
+
+1. To compile the source code, clone this repo and open the entire folder with Unity.
+2. Navigate to and open the `MapScene.unity` scene file.
 
 # INFO
 
 Advantages:
 
-	• Completely offline & open-source. Your data is definitively your own.
+	• Offline & open-source. Your data never leaves your PC.
 	• Easy to use. No, really. Can you copy & paste? You're a black belt!
-	• Daytripper colors site by purpose. Everyone knows combat-relic =/= relic!
-	• Maps are stored in "map.save" — send this file to share maps.
+	• Daytripper colors site by purpose; a combat-relic site is more combat than relic.
+	• Maps can be backed up and even shared with other users.
 
 Disadvantages:
 
@@ -22,23 +34,6 @@ Disadvantages:
 
 Specifications:
 
-	• Made with Unity using C# methods.
-	• Typed backend for serialization: MapFile.SolarSystem.CosmicSignature
-	• Self-assembling Unity scene provides visualization of backend.
-	
-# FAQ
-
-How to demo:
-
-	• Visit the releases page for a portable build that you can run without Unity.
-	
-How to build:
-
-	• To compile the source code, clone this repo and open the entire folder with Unity.
-	• Navigate to and open the `MapScene.unity` scene file. Now you can run the game.
-
-How to contribute:
-	
-	• Clone the repo, tinker with Unity, and submit a pull request when done.
-	• Specifically, changes like refactoring & code cleaning are most helpful at this time.
-	• Once the framework is further developed, feature addition will open up.
+    • Made with C# in Unity 2021.3.16f1.
+    • Readable data structure: `MapFile.SolarSystem.CosmicSignature`.
+    • Self-assembling scene philosophy.
